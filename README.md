@@ -56,3 +56,7 @@ cd Cosmic-Collision-Asteroid-Risk
 - **Install dependencies**:  
   ```bash
   pip install -r requirements.txt
+
+Open the notebook:
+jupyter notebook Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
+
