@@ -1,5 +1,3 @@
----
-
 # Cosmic Collision: Analysing Asteroid Risks with Data
 
 ## Overview
@@ -13,7 +11,6 @@ This project leverages **data analytics** and **machine learning** to evaluate t
 
 The notebook includes **data preprocessing, exploratory data analysis (EDA), feature engineering, and predictive modeling** to assess asteroid risk.
 
----
 
 ## Repository Structure
 
