@@ -13,7 +13,7 @@ This project leverages **data analytics** and **machine learning** to evaluate t
 
 The notebook includes **data preprocessing, exploratory data analysis (EDA), feature engineering, and predictive modeling** to assess asteroid risk.
 
----
+
 
 ## 📂 Repository Structure
 
@@ -26,7 +26,6 @@ The notebook includes **data preprocessing, exploratory data analysis (EDA), fea
 ├── LICENSE                                                     
 ```
 
----
 
 ## 🔑 Key Objectives
 
