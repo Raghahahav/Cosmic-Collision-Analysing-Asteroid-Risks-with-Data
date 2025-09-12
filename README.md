@@ -60,3 +60,39 @@ cd Cosmic-Collision-Asteroid-Risk
 Open the notebook:
 jupyter notebook Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
 
+
+📈 Results & Insights
+
+Identification of Potentially Hazardous Asteroids (PHAs)
+
+Visualization of orbital parameters and risk levels
+
+Machine learning model performance metrics
+
+Key trends in asteroid size, velocity, and proximity to Earth
+
+(Add graphs/screenshots from your notebook here)
+
+🌌 Future Work
+
+Integrating real-time asteroid tracking APIs
+
+Enhancing machine learning models for better predictions
+
+Building an interactive dashboard for asteroid monitoring
+
+🤝 Contributing
+
+Contributions are welcome! Please fork this repo and submit a pull request with improvements.
+
+📜 License
+
+This project is licensed under the MIT License – see the LICENSE
+ file for details.
+
+🛰️ Acknowledgments
+
+NASA Open Data Portal
+
+scikit-learn & Python Data Science Community
+
