@@ -18,12 +18,12 @@ The notebook includes **data preprocessing, exploratory data analysis (EDA), fea
 ## 📂 Repository Structure
 
 ```
-├── Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb   # Jupyter notebook with full analysis
-├── dataset.csv                                                 # Raw asteroid close-approach dataset (~4.5k rows, 24 features)
-├── processed_dataset_after_imputation.csv                      # Dataset after missing-value imputation
-├── normalized_dataset.csv                                      # Scaled & encoded dataset
-├── README.md                                                   # Project documentation
-├── LICENSE                                                     # License information (MIT)
+├── Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
+├── dataset.csv                                                 
+├── processed_dataset_after_imputation.csv                      
+├── normalized_dataset.csv                                      
+├── README.md                                                   
+├── LICENSE                                                     
 ```
 
 ---
