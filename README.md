@@ -1,76 +1,75 @@
-```markdown
-Cosmic Collision: Analysing Asteroid Risks with Data  
+---
 
- Overview  
-This project leverages data analytics and machine learning to evaluate the risk posed by asteroids approaching Earth. Using NASA’s asteroid close-approach dataset, the analysis focuses on predicting whether an asteroid is potentially hazardous to Earth based on features such as:
+# 🌌 Cosmic Collision: Analysing Asteroid Risks with Data
 
-Size and estimated diameter
+## 📖 Overview
 
-Orbital parameters
+This project leverages **data analytics** and **machine learning** to evaluate the risk posed by asteroids approaching Earth. Using NASA’s asteroid close-approach dataset, the analysis focuses on predicting whether an asteroid is potentially hazardous to Earth based on features such as:
 
-Velocity and relative speed
+* Size and estimated diameter
+* Orbital parameters
+* Velocity and relative speed
+* Proximity to Earth’s orbit
 
-Proximity to Earth’s orbit
-
-The notebook includes data preprocessing, exploratory data analysis (EDA), feature engineering, and predictive modeling to assess asteroid risk.
+The notebook includes **data preprocessing, exploratory data analysis (EDA), feature engineering, and predictive modeling** to assess asteroid risk.
 
 ---
 
-**Repository Structure**  
+## 📂 Repository Structure
 
 ```
-
 ├── Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb   # Jupyter notebook with full analysis
-├── dataset.csv                                                 # Raw asteroid close-approach dataset (\~4.5k rows, 24 features)
-├── processed\_dataset\_after\_imputation.csv                      # Dataset after missing-value imputation
-├── normalized\_dataset.csv                                      # Scaled & encoded dataset
-├── requirements.txt                                            # Dependencies
+├── dataset.csv                                                 # Raw asteroid close-approach dataset (~4.5k rows, 24 features)
+├── processed_dataset_after_imputation.csv                      # Dataset after missing-value imputation
+├── normalized_dataset.csv                                      # Scaled & encoded dataset
 ├── README.md                                                   # Project documentation
 ├── LICENSE                                                     # License information (MIT)
-
-````
-
----
-
-**Key Objectives**
-
-**Data Cleaning & Preprocessing **
-- Handle missing values  
-- Normalize features  
-- Encode categorical variables  
-
-**Exploratory Data Analysis (EDA)**
-- Visualize asteroid sizes, orbital parameters, and risk indicators  
-- Identify correlations and hidden patterns  
-
-### 🛠️ Feature Engineering  
-- Derive meaningful features to improve predictive accuracy  
-
-### 🤖 Modeling & Risk Prediction  
-- Train ML models to classify hazardous vs. non-hazardous asteroids  
-- Evaluate with accuracy, precision, recall, and F1-score  
+```
 
 ---
 
-## 🛠️**Installation & Setup**  
+## 🔑 Key Objectives
 
-Clone the repository:  
+1. **Data Cleaning & Preprocessing**
+
+   * Handle missing values, normalize features, and encode categorical variables.
+
+2. **Exploratory Data Analysis (EDA)**
+
+   * Visualize asteroid sizes, orbital parameters, and risk indicators.
+   * Identify patterns and correlations in the dataset.
+
+3. **Feature Engineering**
+
+   * Extract meaningful variables for risk prediction.
+
+4. **Modeling & Risk Prediction**
+
+   * Apply machine learning models to classify asteroids as *hazardous* or *non-hazardous*.
+   * Evaluate performance with accuracy, precision, recall, and F1-score.
+
+5. **Insights & Conclusion**
+
+   * Highlight critical factors influencing asteroid hazard predictions.
+
+---
+
+## 🛠️ Installation & Setup
+
+Clone the repository:
+
 ```bash
 git clone https://github.com/<your-username>/Cosmic-Collision-Asteroid-Risk.git
 cd Cosmic-Collision-Asteroid-Risk
-````
+```
 
-### ⚙️ Requirements
-
-* **Python**: >= 3.8
-
-Install dependencies:
+Install dependencies (recommended: create a virtual environment first):
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**Open the notebook:**
+Open the notebook:
 
 ```bash
 jupyter notebook Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
@@ -78,34 +77,57 @@ jupyter notebook Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
 
 ---
 
-## 📈 Results & Insights
+## 📊 Dataset Information
 
-* Identification of **Potentially Hazardous Asteroids (PHAs)**
-* Visualization of orbital parameters and risk levels
-* ML model performance metrics (accuracy, precision, recall, F1-score)
-* Key trends in asteroid size, velocity, and proximity to Earth
+* Source: [NASA Near-Earth Object Data](https://cneos.jpl.nasa.gov/)
+* **Rows**: \~4,500 asteroid observations
+* **Features**: \~24 attributes including:
 
-*(You can add plots and screenshots here to showcase findings)*
+  * Estimated diameter
+  * Relative velocity
+  * Miss distance (closest approach to Earth)
+  * Orbital eccentricity
+  * Absolute magnitude (H)
+  * Hazardous flag (target variable)
+
 ---
 
-## 🌌 Future Work
-* Integrating **real-time asteroid tracking APIs**
-* Enhancing ML models with deep learning
-* Deploying an interactive **dashboard** for asteroid monitoring
+## 📈 Results & Findings
+
+* Certain **orbital features** (e.g., velocity, miss distance) play a significant role in determining asteroid risk.
+* Preprocessed and normalized datasets improve model performance.
+* Machine learning models can provide **early risk assessment**, helping prioritize potentially hazardous asteroids.
+
 ---
 
-## 🤝 Contributing
-Contributions are welcome! 🎉
-1. Fork the repo
-2. Create a new branch
-3. Submit a pull request with improvements
+## 🚀 Future Work
+
+* Extend dataset with additional NASA missions’ data.
+* Apply **deep learning models** for improved predictions.
+* Develop a **real-time dashboard** for asteroid risk monitoring.
+
 ---
 
 ## 📜 License
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
+
 ---
 
-## 🛰️ Acknowledgments
-* **NASA Open Data Portal**
-* **scikit-learn & Python Data Science Community**
-````
+## 🤝 Contributing
+
+Contributions are welcome!
+
+* Fork the repository
+* Create a new branch (`feature-xyz`)
+* Commit your changes
+* Open a pull request
+
+---
+
+## 🙌 Acknowledgements
+
+* [NASA CNEOS](https://cneos.jpl.nasa.gov/) for providing asteroid datasets.
+* Open-source libraries: **Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn**.
+
+---
