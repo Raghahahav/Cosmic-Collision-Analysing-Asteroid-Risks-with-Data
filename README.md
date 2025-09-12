@@ -23,6 +23,9 @@ The notebook includes **data preprocessing, exploratory data analysis (EDA), fea
 
 ---
 
+
+---
+
 ## 🔑 Key Objectives  
 
 ### 🧹 Data Cleaning & Preprocessing  
@@ -32,14 +35,14 @@ The notebook includes **data preprocessing, exploratory data analysis (EDA), fea
 
 ### 📊 Exploratory Data Analysis (EDA)  
 - Visualize asteroid sizes, orbital parameters, and risk indicators  
-- Identify patterns and correlations in the dataset  
+- Identify correlations and hidden patterns  
 
 ### 🛠️ Feature Engineering  
-- Extract meaningful features to improve model accuracy  
+- Derive meaningful features to improve predictive accuracy  
 
 ### 🤖 Modeling & Risk Prediction  
 - Train ML models to classify hazardous vs. non-hazardous asteroids  
-- Evaluate performance with accuracy, precision, recall, and F1-score  
+- Evaluate with accuracy, precision, recall, and F1-score  
 
 ---
 
@@ -50,16 +53,18 @@ Clone the repository:
 git clone https://github.com/<your-username>/Cosmic-Collision-Asteroid-Risk.git
 cd Cosmic-Collision-Asteroid-Risk
 
-## ⚙️ Requirements & Setup
+⚙️ Requirements
 
-- **Python**: >= 3.8  
-- **Install dependencies**:  
-  ```bash
-  pip install -r requirements.txt
+Python: >= 3.8
+
+Install dependencies:
+
+pip install -r requirements.txt
+
 
 Open the notebook:
-jupyter notebook Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
 
+jupyter notebook Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
 
 📈 Results & Insights
 
@@ -67,23 +72,29 @@ Identification of Potentially Hazardous Asteroids (PHAs)
 
 Visualization of orbital parameters and risk levels
 
-Machine learning model performance metrics
+ML model performance metrics (accuracy, precision, recall, F1-score)
 
 Key trends in asteroid size, velocity, and proximity to Earth
 
-(Add graphs/screenshots from your notebook here)
+(You can add plots and screenshots here to showcase findings)
 
 🌌 Future Work
 
 Integrating real-time asteroid tracking APIs
 
-Enhancing machine learning models for better predictions
+Enhancing ML models with deep learning
 
-Building an interactive dashboard for asteroid monitoring
+Deploying an interactive dashboard for asteroid monitoring
 
 🤝 Contributing
 
-Contributions are welcome! Please fork this repo and submit a pull request with improvements.
+Contributions are welcome! 🎉
+
+Fork the repo
+
+Create a new branch
+
+Submit a pull request with improvements
 
 📜 License
 
@@ -95,4 +106,3 @@ This project is licensed under the MIT License – see the LICENSE
 NASA Open Data Portal
 
 scikit-learn & Python Data Science Community
-
