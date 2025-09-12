@@ -1,7 +1,3 @@
-Ah, I see the issue 👍 — your Markdown is rendering strangely because some **code blocks weren’t closed properly** and some headings got mixed inside code fences.
-
-Here’s the **fixed Markdown** version (just copy–paste into your `README.md`):
-
 ```markdown
 # 🌌 Cosmic Collision: Analysing Asteroid Risks with Data  
 
