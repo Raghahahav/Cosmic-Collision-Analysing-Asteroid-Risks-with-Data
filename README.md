@@ -1,28 +1,36 @@
+Ah, I see the issue 👍 — your Markdown is rendering strangely because some **code blocks weren’t closed properly** and some headings got mixed inside code fences.
+
+Here’s the **fixed Markdown** version (just copy–paste into your `README.md`):
+
+```markdown
 # 🌌 Cosmic Collision: Analysing Asteroid Risks with Data  
 
 ## 📖 Overview  
-This project leverages **data analytics** and **machine learning** to evaluate the risk posed by asteroids approaching Earth. Using NASA’s asteroid close-approach dataset, the analysis focuses on predicting whether an asteroid is potentially hazardous to Earth based on features such as:  
+This project applies **data analytics** and **machine learning** to assess the risks posed by asteroids approaching Earth.  
+Using NASA’s asteroid close-approach dataset, the analysis predicts whether an asteroid is **potentially hazardous** based on features such as:  
 
-- Size and estimated diameter  
+- Estimated size and diameter  
 - Orbital parameters  
 - Velocity and relative speed  
 - Proximity to Earth’s orbit  
 
-The notebook includes **data preprocessing, exploratory data analysis (EDA), feature engineering, and predictive modeling** to assess asteroid risk.  
+The notebook covers: **data preprocessing, exploratory data analysis (EDA), feature engineering, and predictive modeling** for asteroid risk classification.  
 
 ---
 
 ## 📂 Repository Structure  
-├── Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb # Jupyter notebook with full analysis
-├── dataset.csv # Raw asteroid close-approach dataset (~4.5k rows, 24 features)
-├── processed_dataset_after_imputation.csv # Dataset after missing-value imputation
-├── normalized_dataset.csv # Scaled & encoded dataset
-├── README.md # Project documentation
-├── LICENSE # License information (MIT)
 
+```
 
----
+├── Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb   # Jupyter notebook with full analysis
+├── dataset.csv                                                 # Raw asteroid close-approach dataset (\~4.5k rows, 24 features)
+├── processed\_dataset\_after\_imputation.csv                      # Dataset after missing-value imputation
+├── normalized\_dataset.csv                                      # Scaled & encoded dataset
+├── requirements.txt                                            # Dependencies
+├── README.md                                                   # Project documentation
+├── LICENSE                                                     # License information (MIT)
 
+````
 
 ---
 
@@ -52,58 +60,71 @@ Clone the repository:
 ```bash
 git clone https://github.com/<your-username>/Cosmic-Collision-Asteroid-Risk.git
 cd Cosmic-Collision-Asteroid-Risk
----
-⚙️ Requirements
+````
 
-Python: >= 3.8
----
+### ⚙️ Requirements
+
+* **Python**: >= 3.8
+
 Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
----
 Open the notebook:
+
 ```bash
 jupyter notebook Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
+```
+
 ---
-📈 Results & Insights
 
-Identification of Potentially Hazardous Asteroids (PHAs)
+## 📈 Results & Insights
 
-Visualization of orbital parameters and risk levels
+* Identification of **Potentially Hazardous Asteroids (PHAs)**
+* Visualization of orbital parameters and risk levels
+* ML model performance metrics (accuracy, precision, recall, F1-score)
+* Key trends in asteroid size, velocity, and proximity to Earth
 
-ML model performance metrics (accuracy, precision, recall, F1-score)
+*(You can add plots and screenshots here to showcase findings)*
 
-Key trends in asteroid size, velocity, and proximity to Earth
-
-(You can add plots and screenshots here to showcase findings)
 ---
-🌌 Future Work
 
-Integrating real-time asteroid tracking APIs
+## 🌌 Future Work
 
-Enhancing ML models with deep learning
+* Integrating **real-time asteroid tracking APIs**
+* Enhancing ML models with deep learning
+* Deploying an interactive **dashboard** for asteroid monitoring
 
-Deploying an interactive dashboard for asteroid monitoring
 ---
-🤝 Contributing
+
+## 🤝 Contributing
 
 Contributions are welcome! 🎉
 
-Fork the repo
+1. Fork the repo
+2. Create a new branch
+3. Submit a pull request with improvements
 
-Create a new branch
-
-Submit a pull request with improvements
 ---
-📜 License
 
-This project is licensed under the MIT License – see the LICENSE
- file for details.
+## 📜 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
 ---
-🛰️ Acknowledgments
 
-NASA Open Data Portal
+## 🛰️ Acknowledgments
 
-scikit-learn & Python Data Science Community
+* **NASA Open Data Portal**
+* **scikit-learn & Python Data Science Community**
+
+````
+
+---
+
+
+
+Do you also want me to create a **nice GitHub badges row** (Python, Jupyter, MIT License, etc.) at the top for a more professional look?
+````
