@@ -1,8 +1,8 @@
 ---
 
-# 🌌 Cosmic Collision: Analysing Asteroid Risks with Data
+# Cosmic Collision: Analysing Asteroid Risks with Data
 
-## 📖 Overview
+## Overview
 
 This project leverages **data analytics** and **machine learning** to evaluate the risk posed by asteroids approaching Earth. Using NASA’s asteroid close-approach dataset, the analysis focuses on predicting whether an asteroid is potentially hazardous to Earth based on features such as:
 
@@ -15,7 +15,7 @@ The notebook includes **data preprocessing, exploratory data analysis (EDA), fea
 
 
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 ├── Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
@@ -27,7 +27,7 @@ The notebook includes **data preprocessing, exploratory data analysis (EDA), fea
 ```
 
 
-## 🔑 Key Objectives
+## Key Objectives
 
 1. **Data Cleaning & Preprocessing**
 
@@ -53,7 +53,7 @@ The notebook includes **data preprocessing, exploratory data analysis (EDA), fea
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 Clone the repository:
 
@@ -76,7 +76,7 @@ jupyter notebook Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
 
 ---
 
-## 📊 Dataset Information
+## Dataset Information
 
 * Source: [NASA Near-Earth Object Data](https://cneos.jpl.nasa.gov/)
 * **Rows**: \~4,500 asteroid observations
@@ -91,7 +91,7 @@ jupyter notebook Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
 
 ---
 
-## 📈 Results & Findings
+## Results & Findings
 
 * Certain **orbital features** (e.g., velocity, miss distance) play a significant role in determining asteroid risk.
 * Preprocessed and normalized datasets improve model performance.
@@ -99,7 +99,7 @@ jupyter notebook Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
 
 ---
 
-## 🚀 Future Work
+## Future Work
 
 * Extend dataset with additional NASA missions’ data.
 * Apply **deep learning models** for improved predictions.
@@ -107,13 +107,13 @@ jupyter notebook Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
 
@@ -124,7 +124,7 @@ Contributions are welcome!
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 * [NASA CNEOS](https://cneos.jpl.nasa.gov/) for providing asteroid datasets.
 * Open-source libraries: **Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn**.
