@@ -52,20 +52,21 @@ Clone the repository:
 ```bash
 git clone https://github.com/<your-username>/Cosmic-Collision-Asteroid-Risk.git
 cd Cosmic-Collision-Asteroid-Risk
-
+---
 ⚙️ Requirements
 
 Python: >= 3.8
-
+---
 Install dependencies:
 
+```bash
 pip install -r requirements.txt
 
-
+---
 Open the notebook:
-
+```bash
 jupyter notebook Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
-
+---
 📈 Results & Insights
 
 Identification of Potentially Hazardous Asteroids (PHAs)
@@ -77,7 +78,7 @@ ML model performance metrics (accuracy, precision, recall, F1-score)
 Key trends in asteroid size, velocity, and proximity to Earth
 
 (You can add plots and screenshots here to showcase findings)
-
+---
 🌌 Future Work
 
 Integrating real-time asteroid tracking APIs
@@ -85,7 +86,7 @@ Integrating real-time asteroid tracking APIs
 Enhancing ML models with deep learning
 
 Deploying an interactive dashboard for asteroid monitoring
-
+---
 🤝 Contributing
 
 Contributions are welcome! 🎉
@@ -95,12 +96,12 @@ Fork the repo
 Create a new branch
 
 Submit a pull request with improvements
-
+---
 📜 License
 
 This project is licensed under the MIT License – see the LICENSE
  file for details.
-
+---
 🛰️ Acknowledgments
 
 NASA Open Data Portal
