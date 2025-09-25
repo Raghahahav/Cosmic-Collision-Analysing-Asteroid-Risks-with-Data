@@ -1,129 +1,117 @@
-# Cosmic Collision: Analysing Asteroid Risks with Data
+# Cosmic Collision: Analyzing Asteroid Risks with Data
 
-## Overview
+This project analyzes asteroid collision risks using machine learning techniques. The analysis includes exploratory data analysis, feature engineering, model training, and risk assessment of potentially hazardous asteroids.
 
-This project leverages **data analytics** and **machine learning** to evaluate the risk posed by asteroids approaching Earth. Using NASA’s asteroid close-approach dataset, the analysis focuses on predicting whether an asteroid is potentially hazardous to Earth based on features such as:
+## Project Overview
 
-* Size and estimated diameter
-* Orbital parameters
-* Velocity and relative speed
-* Proximity to Earth’s orbit
+The notebook performs comprehensive analysis on asteroid data including:
+- **Data Inspection & Cleaning**: Analysis of asteroid features and data quality
+- **Feature Engineering**: Creation of derived features for better model performance
+- **Class Imbalance Handling**: Using SMOTE for balanced training data
+- **Machine Learning Models**: Random Forest and XGBoost classifiers
+- **Model Evaluation**: Performance metrics, SHAP values, and feature importance
+- **Anomaly Detection**: Isolation Forest for outlier detection
 
-The notebook includes **data preprocessing, exploratory data analysis (EDA), feature engineering, and predictive modeling** to assess asteroid risk.
+## Setup Instructions
 
+### Prerequisites
+- Python 3.13+ (as configured in your .venv)
+- Virtual environment already created at `.venv/`
 
-## Repository Structure
+### Quick Setup
+1. **Run the setup script:**
+   ```bash
+   # On Windows
+   setup_env.bat
+   
+   # On Linux/Mac
+   chmod +x setup_env.sh
+   ./setup_env.sh
+   ```
+
+### Manual Setup
+If you prefer manual setup:
+
+1. **Activate the virtual environment:**
+   ```bash
+   # On Windows
+   ..\.venv\Scripts\activate.bat
+   
+   # On Linux/Mac
+   source ../.venv/Scripts/activate
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+
+3. **Set up Jupyter kernel:**
+   ```bash
+   python -m ipykernel install --user --name cosmic-collision --display-name "Cosmic Collision Analysis"
+   ```
+
+## Running the Analysis
+
+1. **Start Jupyter Notebook:**
+   ```bash
+   jupyter notebook
+   ```
+
+2. **Open the notebook:**
+   Navigate to `Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb`
+
+3. **Select the correct kernel:**
+   - In Jupyter, go to Kernel → Change Kernel
+   - Select "Cosmic Collision Analysis"
+
+4. **Run the analysis:**
+   - Execute cells sequentially or run all cells
+
+## Dataset Files
+
+- `dataset.csv` - Original asteroid data
+- `normalized_dataset (1).csv` - Normalized dataset
+- `processed_dataset_after_imputation (1).csv` - Dataset after missing value treatment
+
+## Key Dependencies
+
+- **pandas**: Data manipulation and analysis
+- **numpy**: Numerical computing
+- **scikit-learn**: Machine learning algorithms
+- **xgboost**: Gradient boosting framework
+- **imbalanced-learn**: Handling imbalanced datasets
+- **shap**: Model interpretability
+- **seaborn/matplotlib**: Data visualization
+
+## Project Structure
 
 ```
-├── Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
-├── dataset.csv                                                 
-├── processed_dataset_after_imputation.csv                      
-├── normalized_dataset.csv                                      
-├── README.md                                                   
-├── LICENSE                                                     
+Cosmic collsion/
+├── .venv/                          # Virtual environment
+└── Cosmic-Collision-Analysing-Asteroid-Risks-with-Data/
+    ├── Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
+    ├── dataset.csv
+    ├── normalized_dataset (1).csv
+    ├── processed_dataset_after_imputation (1).csv
+    ├── README.md                   # This file
+    ├── requirements.txt            # Python dependencies
+    ├── setup_env.bat              # Windows setup script
+    └── setup_env.sh               # Linux/Mac setup script
 ```
 
+## Notes
 
-## Key Objectives
+- The virtual environment is already created and configured for Python 3.13
+- All dependencies will be installed within the `.venv` folder
+- The Jupyter kernel "Cosmic Collision Analysis" will be available for this project
+- Make sure to activate the virtual environment before running any Python scripts or notebooks
 
-1. **Data Cleaning & Preprocessing**
+## Troubleshooting
 
-   * Handle missing values, normalize features, and encode categorical variables.
-
-2. **Exploratory Data Analysis (EDA)**
-
-   * Visualize asteroid sizes, orbital parameters, and risk indicators.
-   * Identify patterns and correlations in the dataset.
-
-3. **Feature Engineering**
-
-   * Extract meaningful variables for risk prediction.
-
-4. **Modeling & Risk Prediction**
-
-   * Apply machine learning models to classify asteroids as *hazardous* or *non-hazardous*.
-   * Evaluate performance with accuracy, precision, recall, and F1-score.
-
-5. **Insights & Conclusion**
-
-   * Highlight critical factors influencing asteroid hazard predictions.
-
----
-
-## Installation & Setup
-
-Clone the repository:
-
-```bash
-git clone https://github.com/<your-username>/Cosmic-Collision-Asteroid-Risk.git
-cd Cosmic-Collision-Asteroid-Risk
-```
-
-Install dependencies (recommended: create a virtual environment first):
-
-```bash
-pip install -r requirements.txt
-```
-
-Open the notebook:
-
-```bash
-jupyter notebook Cosmic-Collision-Analysing-Asteroid-Risks-with-Data.ipynb
-```
-
----
-
-## Dataset Information
-
-* Source: [NASA Near-Earth Object Data](https://cneos.jpl.nasa.gov/)
-* **Rows**: \~4,500 asteroid observations
-* **Features**: \~24 attributes including:
-
-  * Estimated diameter
-  * Relative velocity
-  * Miss distance (closest approach to Earth)
-  * Orbital eccentricity
-  * Absolute magnitude (H)
-  * Hazardous flag (target variable)
-
----
-
-## Results & Findings
-
-* Certain **orbital features** (e.g., velocity, miss distance) play a significant role in determining asteroid risk.
-* Preprocessed and normalized datasets improve model performance.
-* Machine learning models can provide **early risk assessment**, helping prioritize potentially hazardous asteroids.
-
----
-
-## Future Work
-
-* Extend dataset with additional NASA missions’ data.
-* Apply **deep learning models** for improved predictions.
-* Develop a **real-time dashboard** for asteroid risk monitoring.
-
----
-
-## License
-
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
-
----
-
-## Contributing
-
-Contributions are welcome!
-
-* Fork the repository
-* Create a new branch (`feature-xyz`)
-* Commit your changes
-* Open a pull request
-
----
-
-## Acknowledgements
-
-* [NASA CNEOS](https://cneos.jpl.nasa.gov/) for providing asteroid datasets.
-* Open-source libraries: **Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn**.
-
----
+If you encounter issues:
+1. Ensure the virtual environment is activated
+2. Check that all dependencies are installed: `pip list`
+3. Verify the Jupyter kernel is installed: `jupyter kernelspec list`
+4. Restart Jupyter if the kernel doesn't appear
